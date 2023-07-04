@@ -8,8 +8,8 @@ def index(request):
     html = f'''
     <html>
         <body>
-            <h1>Hello from Vercel!</h1>
-            <p>The current time is { now }.</p>
+            <h1>This part of code must be a new page</h1>
+        
         </body>
     </html>
     '''
