@@ -11,9 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script>
-        AOS.init();
-    </script>
+    
     <title>First world</title>
 </head>
 
@@ -129,10 +127,10 @@
 
     <div class="m-4">
 
-        <div
+        <div data-aos="fade-up"
             class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             
-            <img class="p-8 rounded-t-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="product image" />
+            <img class="h-auto w-auto rounded-t-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="product image" />
             
             
             
@@ -187,6 +185,9 @@
             classList.toggle('hidden');
             classList.toggle('block');
         });
+    </script>
+    <script>
+        AOS.init({ duration: 1500 });
     </script>
 </body>
 
