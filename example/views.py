@@ -1,6 +1,6 @@
 # example/views.py
-from django.http import response
+from django.shortcuts import render
 
 def index(request):
 
-    return response(request,'index.html')
+    return render(request,'index.html',)
